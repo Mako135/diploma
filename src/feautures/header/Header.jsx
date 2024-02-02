@@ -18,14 +18,15 @@ const Header = () => {
       justifyContent={"space-between"}
       padding={2}
       minWidth={{
-        base: "300px",
-        md: "1000px",
+        md: "700px",
+        lg: "900px",
+        xl: "1100px",
       }}
     >
-      <Box>
+      <Box >
         <Image src={logo} alt="Logo" boxSize="80px" padding="0.5 rem" />
       </Box>
-      <Box display={"flex"} gap={"2vw"}>
+      <Box display={"flex"} gap={"1vw"}>
         <Box
           padding={"0.5rem"}
           borderRadius={5}
@@ -33,13 +34,12 @@ const Header = () => {
           _hover={{
             transition: "0.3s",
             background: "gray.300",
-            fontWeight: "bold",
           }}
         >
           <Link to="/">My courses</Link>
         </Box>
 
-        <Menu width={30}>
+        <Menu >
           <MenuButton
             borderRadius={5}
             transition="0.3s"
@@ -51,7 +51,7 @@ const Header = () => {
           >
             Actions
           </MenuButton>
-          <MenuList width={30}>
+          <MenuList>
             <MenuItem><Link to="/">My profile</Link></MenuItem>
             <MenuItem><Link to="/"style={{
                 display: "flex",

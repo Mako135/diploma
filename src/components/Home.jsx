@@ -5,7 +5,6 @@ const Home = () => {
     <>
       <Container
         minWidth={{
-          base: "300px",
           md: "1000px",
         }}
       >
