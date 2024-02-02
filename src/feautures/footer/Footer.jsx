@@ -29,7 +29,6 @@ const Footer = () => {
             md: "120px",
             lg: "140px",
             xl: "160px",
-  
         }}
         >
           <Link><BiLogoTelegram fontSize={25}/></Link>
