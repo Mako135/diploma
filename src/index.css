@@ -1,0 +1,30 @@
+div#tekst_sverhu_kartinki {
+    position: relative;
+}
+
+
+.tekst_sverhu_kartinki {
+
+    position: absolute;
+    top: 0;
+    height: 90vh;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+    
+}
+
+.title {
+    margin: 300px;
+    width: 750px;
+
+}
+
+.title h1 {
+    font-size: 64px;
+}
+
+.title p {
+    font-size: 24px;
+}
+

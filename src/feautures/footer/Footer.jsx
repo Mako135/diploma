@@ -13,6 +13,7 @@ const Footer = () => {
         alignItems={"center"}
         justifyContent={"space-between"}
         padding={2}
+        mb={10}
         minWidth={{
           md: "700px",
           lg: "900px",
